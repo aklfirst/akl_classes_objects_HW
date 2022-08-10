@@ -19,14 +19,7 @@ public class Main {
         Book lr_2 = new Book("Властелин Колец", tolkin, 1954);
         System.out.println(lr_2);
 
-        if (lr_2.hashCode() == lord_Of_The_Rings.hashCode())
-        {
-            System.out.println("hashCodes совпадают");
-        } else
-        {
-            System.out.println("разница в hashcodes" + lr_2.hashCode() + " != " + lord_Of_The_Rings.hashCode());
-        }
-
+        System.out.println("Сравнение хэшкод - " + (lord_Of_The_Rings.hashCode() == lr_2.hashCode()));
         System.out.println("Сравнение книг - " + lord_Of_The_Rings.equals(lr_2));
 
         }
