@@ -7,12 +7,17 @@ public Author(String firstName, String lastName) {
     this.lastName = lastName;
     }
 
-    public String getFirstName (){
-        return this.firstName;
+    public String getFirstName(){
+        return firstName;
     }
 
-    public String getLastName (){
-        return this.lastName;
+    public String getLastName(){
+        return lastName;
     }
+
+    public String toString() {
+        return "Автор: " + getLastName() + " , " + getFirstName();
+    }
+
 
 }
