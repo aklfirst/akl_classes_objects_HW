@@ -29,7 +29,6 @@ public class Main {
 
         System.out.println("Сравнение книг - " + lord_Of_The_Rings.equals(lr_2));
 
-
         }
 }
 
